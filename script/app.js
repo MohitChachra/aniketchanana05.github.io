@@ -254,4 +254,9 @@ var intro = new Wave({
 });
 intro.start();
 
+var crossbtn = document.getElementById("crossbtn");
+var bar = document.getElementById("bar");
 
+bar.addEventListener("click",()=>{
+    crossbtn.click();
+})
